@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>México - Copa do Mundo 2026</title>
+<link rel="icon" type="image/png" href="imagens/favicon.png">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#ececec;
+    color:#333;
+}
+
+/* CABEÇALHO */
+
+header{
+    background:linear-gradient(90deg,#d60000,#1e2d8f);
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
+
+header h1{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:18px;
+}
+
+/* MENU */
+
+nav{
+    background:#e00000;
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+}
+
+nav li{
+    margin:0 10px;
+}
+
+nav a{
+    display:block;
+    padding:15px 20px;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav a:hover{
+    background:rgba(255,255,255,0.15);
+}
+
+/* CONTAINER */
+
+.container{
+    max-width:1000px;
+    margin:30px auto;
+    padding:0 20px;
+}
+
+/* CARD PRINCIPAL */
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 0 15px rgba(0,0,0,0.15);
+    border-left:6px solid red;
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+    margin-top:15px;
+    margin-bottom:20px;
+}
+
+h2{
+    color:#0b3ea8;
+    margin-top:30px;
+    margin-bottom:15px;
+    padding-bottom:10px;
+    border-bottom:3px solid red;
+}
+
+p{
+    margin-bottom:15px;
+    text-align:justify;
+    line-height:1.8;
+}
+
+/* LISTA */
+
+.info{
+    background:#f5f5f5;
+    padding:20px;
+    border-radius:10px;
+    border-top:4px solid red;
+}
+
+.info ul{
+    padding-left:20px;
+}
+
+.info li{
+    margin-bottom:10px;
+}
+
+/* GALERIA */
+
+.galeria{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:15px;
+    margin-top:15px;
+}
+
+.galeria img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.galeria img:hover{
+    transform:scale(1.03);
+}
+
+/* RODAPÉ */
+
+footer{
+    background:#0037a5;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+/* RESPONSIVO */
+
+@media(max-width:768px){
+
+    header h1{
+        font-size:30px;
+    }
+
+    nav ul{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .galeria{
+        grid-template-columns:1fr;
+    }
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>🌵 México</h1>
+    <p>País-sede da Copa do Mundo FIFA 2026</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="estados-unidos.html">Estados Unidos</a></li>
+        <li><a href="canada.html">Canadá</a></li>
+        <li><a href="mexico.html">México</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+
+    <div class="card">
+
+        <img src="imagens/bandeira-mexico.webp" alt="Bandeira do México">
+
+        <h2>Sobre o País</h2>
+
+        <p>
+            O México está localizado na América do Norte e faz fronteira com os Estados Unidos,
+            Guatemala e Belize. Sua capital é a Cidade do México, uma das maiores cidades do mundo.
+            O país possui uma rica história, marcada pelas civilizações maia e asteca, além de uma
+            grande diversidade cultural.
+        </p>
+
+        <h2>Mapa do México</h2>
+
+        <img src="imagens/mapa-mexico.jpg" alt="Mapa do México">
+
+        <h2>Dados Geográficos</h2>
+
+        <div class="info">
+            <ul>
+                <li><strong>Capital:</strong> Cidade do México</li>
+                <li><strong>Continente:</strong> América do Norte</li>
+                <li><strong>Área:</strong> 1,96 milhão km²</li>
+                <li><strong>População:</strong> cerca de 130 milhões de habitantes</li>
+                <li><strong>Idioma:</strong> Espanhol</li>
+                <li><strong>Moeda:</strong> Peso Mexicano (MXN)</li>
+            </ul>
+        </div>
+
+        <h2>Cultura e Tradições</h2>
+
+        <p>
+            A cultura mexicana é conhecida mundialmente por sua música, culinária e festividades
+            tradicionais. Entre as tradições mais famosas estão o Dia dos Mortos, os mariachis e as
+            danças folclóricas. A gastronomia mexicana, com pratos como tacos e burritos, é considerada
+            Patrimônio Cultural Imaterial da Humanidade.
+        </p>
+
+        <div class="galeria">
+            <img src="imagens/mariachis.jpg" alt="Mariachis">
+            <img src="imagens/dia-dos-mortos.jpg" alt="Dia dos Mortos">
+            <img src="imagens/comida.png" alt="Comida Mexicana">
+        </div>
+
+        <h2>Infraestrutura para Eventos</h2>
+
+        <p>
+            O México possui estádios modernos, aeroportos internacionais e uma ampla rede de transportes.
+            A Cidade do México, Guadalajara e Monterrey contam com instalações preparadas para receber
+            grandes eventos esportivos e culturais.
+        </p>
+
+        <img src="imagens/estadio-mexico.jpg" alt="Estádio no México">
+
+        <h2>Pontos Turísticos</h2>
+
+        <p>
+            O México possui destinos turísticos famosos em todo o mundo, como Chichén Itzá, Cancún,
+            Teotihuacán e a Cidade do México. Esses locais atraem milhões de visitantes todos os anos
+            devido à sua beleza natural e importância histórica.
+        </p>
+
+        <div class="galeria">
+            <img src="imagens/chichen-itza.jpg" alt="Chichén Itzá">
+            <img src="imagens/cancun.webp" alt="Cancún">
+            <img src="imagens/teotihuacan.avif" alt="Teotihuacán">
+            <img src="imagens/cidade-do-mexico.jpg" alt="Cidade do México">
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    © 2026 - Projeto Escolar sobre a Copa do Mundo FIFA 2026
+</footer>
+
+</body>
+</html>
