@@ -1,9 +1,9 @@
 # Site Copa do Mundo 2026
 Integrantes
+Gabriel Teles
+Julie Annie Dias
+Matheus Pedro
 Pedro Rufino
-Nome do Integrante 2
-Nome do Integrante 3
-Nome do Integrante 4
 Descrição do Projeto
 
 Este projeto foi desenvolvido para a disciplina de SOP com o objetivo de criar um site sobre a Copa do Mundo de 2026 utilizando HTML, CSS, Git e GitHub.
